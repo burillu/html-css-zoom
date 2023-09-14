@@ -72,6 +72,9 @@ footer{
     left: 0;
     height: 70px;
 }
+.air-content{
+    padding: 0 10px;
+}
 .end-call{
     background-color: var(--color-label-color);
     color: var(--color-exit-color);
