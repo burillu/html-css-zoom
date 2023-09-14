@@ -35,7 +35,7 @@ a{
     height: calc(100vh - 70px);
 }
 /* flex */
-d-flex{
+.d-flex{
     display: flex;
 }
 .flex-wrap{
@@ -45,6 +45,14 @@ d-flex{
 /* main */
 main{
     background-color: var(--color-secondary-color);
+}
+.content{
+    width: calc(100% / 7);
+    height: calc(100% / 5);
+    padding:5px 2.5px;
+}
+.img-fluid{
+    width: 100%;
 }
 
 /* footer */
