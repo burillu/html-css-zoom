@@ -4,6 +4,7 @@
 	--color-contrast-color: #ffffff;
 	--color-label-color: #4a4a4a;
 	--color-confirm-color: #4bc800;
+    --color-exit-color: #da1f23;
 }
 *{
     margin: 0;
@@ -41,6 +42,13 @@ a{
 .flex-wrap{
     flex-flow: row wrap;
 }
+.justify-between{
+    justify-content: space-between;
+}
+.align-center{
+    align-items: center;
+    align-content: center;
+}
 
 /* main */
 main{
@@ -63,4 +71,17 @@ footer{
     bottom: 0;
     left: 0;
     height: 70px;
+}
+.end-call{
+    background-color: var(--color-label-color);
+    color: var(--color-exit-color);
+    height: 100%;
+    line-height: 70px;
+}
+.icons{
+    font-size: 1.5em;
+    text-align: center;
+}
+span.txt-footer{
+    font-size: smaller;
 }
