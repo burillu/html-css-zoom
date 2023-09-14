@@ -26,10 +26,10 @@ a{
 }
 
 /* utility */
-.debug{
+/* .debug{
     border: 1px solid rgb(250, 243, 243);
     min-height: 25px;
-}
+} */
 .container{
     max-width: 90vw;
     margin:0 auto;
@@ -67,6 +67,7 @@ main{
     height: calc(100vh / 6 - 10px);
     object-fit: cover;
     object-position: center;
+    cursor: pointer;
 }
 .p-relative{
     position: relative;
@@ -77,6 +78,21 @@ main{
     bottom: 6px;
     background-color:rgba(0, 0, 0, 0.5);
     padding-right: 5px;
+}
+.label-main{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.bg-label{
+    background-color:rgba(129, 129, 129, 0.719);
+    border-radius: 5px;
+    padding: 2px 4px;
+    cursor: pointer;
+}
+.label-left{
+    margin-right: 2px;
+
 }
 .label-text{
     font-size: 0.7em;
